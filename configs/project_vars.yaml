@@ -1,5 +1,5 @@
 random_seed: 42
-debug_mode: false
+debug_mode: true
 invalid_action_penalty: 0.0 # Penalty for invalid HighLevelActions in the environment
 debug_skip_lm: false # Will skip all LM calls, to allow debugging on systems without LM access. 
 ocr_max_new_tokens: 20

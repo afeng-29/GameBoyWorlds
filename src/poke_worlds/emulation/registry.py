@@ -21,6 +21,7 @@ from poke_worlds.emulation.legend_of_zelda import registry as legend_of_zelda_re
 from poke_worlds.emulation.sword_of_hope import registry as sword_of_hope_registry
 from poke_worlds.emulation.deja_vu import registry as deja_vu_registry
 from poke_worlds.emulation.harvest_moon import registry as harvest_moon_registry
+from poke_worlds.emulation.runes_of_virtue import registry as runes_of_virtue_registry
 
 
 _game_registries = [
@@ -29,6 +30,7 @@ _game_registries = [
     sword_of_hope_registry,
     deja_vu_registry,
     harvest_moon_registry,
+    runes_of_virtue_registry,
 ]
 
 _project_parameters = load_parameters()
