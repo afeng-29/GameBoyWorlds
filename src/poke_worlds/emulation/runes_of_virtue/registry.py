@@ -3,6 +3,7 @@ from poke_worlds.emulation.parser import StateParser
 from poke_worlds.emulation.tracker import StateTracker
 from poke_worlds.emulation.emulator import Emulator
 from poke_worlds.emulation.runes_of_virtue.parsers import RunesOfVirtueParser
+from poke_worlds.emulation.runes_of_virtue.trackers import RunesOfVirtueTracker
 
 GAME_TO_GB_NAME = {
     "runes_of_virtue": "RunesOfVirtue.gb",
@@ -14,7 +15,7 @@ STRONGEST_PARSERS: Dict[str, Type[StateParser]] = {
 }
 
 AVAILABLE_STATE_TRACKERS: Dict[str, Dict[str, Type[StateTracker]]] = {
-    "runes_of_virtue": {"default": StateTracker},
+    "runes_of_virtue": {"default": RunesOfVirtueTracker},
 }
 
 AVAILABLE_EMULATORS: Dict[str, Dict[str, Type[Emulator]]] = {
